@@ -1,9 +1,10 @@
+import { Router } from "./router";
 import { Container } from "./styles";
 
 export function App() {
   return (
     <Container>
-      <div>oi</div>
+      <Router />
     </Container>
   );
 }
