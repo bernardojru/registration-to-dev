@@ -1,10 +1,10 @@
 import { Router } from "./router";
-import { Container } from "./styles";
+import { FormProvider } from "./contexts/FormContext";
 
 export function App() {
   return (
-    <Container>
+    <FormProvider>
       <Router />
-    </Container>
+    </FormProvider>
   );
 }

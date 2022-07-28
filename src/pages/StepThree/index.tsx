@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 
 
-export function StepTwo () {
+export function StepThree () {
     return (
         <Container>
             passo2
