@@ -50,7 +50,7 @@ export function StepOne() {
         </label>
 
         <Button onClick={handleNextStep}>Próximo</Button>
-        {message ? <Message>Preencha os dados</Message> : null}
+        {message ? <Message>Insira o seu nome</Message> : null}
       </Container>
     </Theme>
   );
